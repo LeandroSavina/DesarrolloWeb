@@ -1,0 +1,91 @@
+
+
+
+
+@import"./variables.scss";
+@import "./header.scss";
+@import "./main.scss";
+@import "./footer.scss";
+
+
+
+.grilla1{
+    
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 750px 2500px 300px;
+    grid-template-areas:   "header" 
+                            "main"
+                            "footer"; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

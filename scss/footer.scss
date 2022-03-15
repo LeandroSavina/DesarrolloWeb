@@ -1,0 +1,324 @@
+
+@import"./variables.scss";
+
+
+
+@media only screen and (max-width:600px) {
+
+    footer{
+
+        grid-area: footer;
+        display: flex;
+        flex-direction: column;
+        background-color: $colorfooter;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1rem;
+        
+        }
+        
+        
+        
+        
+        p.powered{
+        
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 700;
+        font-size: 11px;
+        padding-left:1rem;
+        padding-top:1rem;
+        position: relative;
+        right:27%;
+        }
+        
+        p.rights{
+        
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:700;
+            font-size: 11px;
+            padding-left:1rem;
+            position: relative;
+            right:30%;
+        }
+        
+        
+        .facebook{
+        
+        max-width: 30px;
+        position: relative;
+        left:11%;
+        bottom:4.5%;
+        
+            &:hover{
+    
+            transform:translate(5px,20px);
+            transition: all 3s;
+            }
+        }
+        
+        
+        
+        .instagram{
+        
+        max-width: 30px;
+        position: relative;
+        left:26%;
+        bottom: 24%; 
+        
+    
+            &:hover{
+    
+    
+            transform:translate(5px,20px);
+            transition: all 3s;
+            }
+        }
+    
+    
+        
+        .twitter{
+            max-width: 30px;
+            position: relative;
+            left:42%;
+            bottom:45%; 
+            
+        
+    
+            &:hover{
+    
+    
+            transform:translate(5px,20px);
+            transition: all 3s;
+            }
+        }
+    
+        
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:600px){
+
+
+    footer{
+
+        grid-area: footer;
+        display: flex;
+        flex-direction: column;
+        background-color: $colorfooter;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1rem;
+        
+        }
+        
+        
+        
+        
+        p.powered{
+        
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 700;
+        font-size: 15px;
+        padding-left:1rem;
+        padding-top:1rem;
+        position: relative;
+        right:33%;
+        bottom:1rem;
+        
+    
+        
+        }
+        
+        p.rights{
+        
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:700;
+            font-size: 15px;
+            padding-left:1rem;
+            position: relative;
+            right:35%;
+            bottom:1rem;
+        }
+        
+        
+        .facebook{
+        
+            max-width: 40px;
+            position: relative;
+            left:32%;
+            top:3%;
+        
+        
+            &:hover{
+    
+            transform:translate(5px,20px);
+            transition: all 3s;
+            }
+
+        }
+        
+        
+        .instagram{
+        
+            max-width: 40px;
+            position: relative;
+            left:38.5%;
+            bottom: 15%; 
+        
+    
+            &:hover{
+    
+            transform:translate(5px,20px);
+            transition: all 3s;
+            }
+
+        }
+    
+    
+    
+    
+    
+        
+        .twitter{
+            max-width: 40px;
+            position: relative;
+            left:45%;
+            bottom:35%; 
+            
+        
+        
+    
+            &:hover{
+    
+            transform:translate(5px,20px);
+            transition: all 3s;
+            }
+    
+        }
+    
+    
+}    
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:992px){
+
+    footer{
+
+        grid-area: footer;
+        display: flex;
+        flex-direction: column;
+        background-color: $colorfooter;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1rem;
+        
+        }
+        
+        
+        
+        
+        p.powered{
+        
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 700;
+        font-size: 15px;
+        padding-left:1rem;
+        padding-top:1rem;
+        position: relative;
+        right:40%;
+        bottom:1rem;
+        
+
+        
+        }
+        
+        p.rights{
+        
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:700;
+        font-size: 15px;
+        padding-left:1rem;
+        position: relative;
+        right:41%;
+        bottom:1rem;
+        }
+        
+        
+        .facebook{
+        
+            max-width: 50px;
+            position: relative;
+            left:39%;
+            top:5%;
+        
+        
+            &:hover{
+
+
+            transform:translate(5px,20px);
+            transition: all 1s;
+            }
+
+        }
+        
+        
+        .instagram{
+        
+            max-width: 50px;
+            position: relative;
+            left:43%;
+            bottom: 14%; 
+        
+
+
+            &:hover{
+
+            transform:translate(5px,20px);
+            transition: all 1s;
+            }
+
+
+        }
+
+
+        
+        .twitter{
+            max-width: 50px;
+            position: relative;
+            left:47%;
+            bottom:36;    
+        
+
+        
+            &:hover{
+
+            transform:translate(5px,20px);
+            transition: all 1s;
+            }
+
+        }
+
+
+
+
+}
