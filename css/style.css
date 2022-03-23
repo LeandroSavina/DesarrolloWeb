@@ -223,18 +223,33 @@
   .historia-1 {
     position: relative;
     left: 10%; }
+    .historia-1:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .historia-2 {
     position: relative;
     left: 10%; }
+    .historia-2:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .guias1 {
     position: relative;
     left: 10%; }
+    .guias1:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .guias2 {
     position: relative;
     left: 10%; }
+    .guias2:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .guias3 {
     position: relative;
     left: 10%; }
+    .guias3:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .p-guias1 {
     color: #444769;
     font-size: 400;
@@ -294,6 +309,9 @@
   .alquiler1 {
     position: relative;
     left: 10%; }
+    .alquiler1:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .p-alquiler2 {
     color: #444769;
     font-size: 400;
@@ -311,6 +329,9 @@
   .alquiler2 {
     position: relative;
     left: 10%; }
+    .alquiler2:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .p-contacto1 {
     color: #444769;
     font-size: 400;
@@ -407,18 +428,33 @@
   .historia-1 {
     position: relative;
     left: 25%; }
+    .historia-1:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .historia-2 {
     position: relative;
     left: 25%; }
+    .historia-2:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .guias1 {
     position: relative;
     left: 27%; }
+    .guias1:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .guias2 {
     position: relative;
     left: 27%; }
+    .guias2:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .guias3 {
     position: relative;
     left: 27%; }
+    .guias3:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .p-guias1 {
     color: #444769;
     font-size: 400;
@@ -478,6 +514,9 @@
   .alquiler1 {
     position: relative;
     left: 27%; }
+    .alquiler1:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .p-alquiler2 {
     color: #444769;
     font-size: 400;
@@ -495,6 +534,9 @@
   .alquiler2 {
     position: relative;
     left: 27%; }
+    .alquiler2:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .p-contacto1 {
     color: #444769;
     font-size: 400;
@@ -595,22 +637,37 @@
     max-width: 700px;
     padding-right: 6rem;
     padding-left: 7rem; }
+    .historia-1:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .historia-2 {
     max-width: 700px;
     padding-right: 6rem;
     padding-left: 7rem;
     padding-bottom: 5rem; }
+    .historia-2:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .guias1 {
     position: relative;
     left: 33%; }
+    .guias1:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .guias2 {
     position: relative;
     left: 33%; }
+    .guias2:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .guias3 {
     padding-right: 5rem;
     padding-left: 5rem;
     position: relative;
     left: 35%; }
+    .guias3:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .p-guias1 {
     padding-top: 3rem;
     padding-right: 6rem;
@@ -673,6 +730,9 @@
     padding-top: 7rem; }
   .alquiler1 {
     padding-top: 5rem; }
+    .alquiler1:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .p-alquiler2 {
     color: #444769;
     font-size: 400;
@@ -687,6 +747,9 @@
     padding-top: 7rem; }
   .alquiler2 {
     padding-top: 5rem; }
+    .alquiler2:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .p-contacto1 {
     color: #444769;
     font-size: 400;

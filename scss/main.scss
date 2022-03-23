@@ -114,6 +114,15 @@
         @extend.img-main1;
         position: relative;
         left:10%;
+
+
+
+    &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
+
+    
     }
     
     
@@ -123,6 +132,11 @@
         @extend.img-main1;
         position: relative;
         left:10%;
+
+    &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
     
     
     }  
@@ -132,6 +146,13 @@
         @extend.img-main1;
         position: relative;
         left:10%;
+
+
+        &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
+
     
     }
     
@@ -141,6 +162,11 @@
         @extend.img-main1;
         position: relative;
         left:10%;
+
+    &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
         
 
     
@@ -153,6 +179,11 @@
         @extend.img-main1;
         position: relative;
         left:10%;
+
+    &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
     
     }
     
@@ -201,7 +232,7 @@
         padding-bottom:1rem; 
         padding-top: 6rem;
         padding-right:2rem;
-    
+
     }
     
     .alquiler1{
@@ -209,6 +240,11 @@
         @extend.img-main1;
         position: relative;
         left:10%;
+
+    &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
     
     }
     
@@ -220,15 +256,22 @@
     padding-bottom:1rem; 
     padding-top: 6rem;
     padding-right:2rem; }
+
     
     .alquiler2{
         
         @extend.img-main1;
         position: relative;
         left:10%;
+
+    &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
     
     
     }    
+
     .p-contacto1{
     
         @include estiloparrafo1 (rgb(68, 71, 105), 400, Arial,);
@@ -451,6 +494,11 @@
     @extend.img-main2;
     position: relative;
     left:25%;
+
+    &:hover{
+
+    transform:scale(1.1,1.1);
+    transition: all 3s;}
         
     
     }
@@ -463,6 +511,11 @@
         @extend.img-main2;
         position: relative;
         left:25%;
+
+        &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
         
 
     }
@@ -476,6 +529,12 @@
         @extend.img-main2;
         position: relative;
         left:27%;
+
+        &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
+
     }
     
     .guias2{
@@ -484,6 +543,11 @@
         @extend.img-main2;
         position: relative;
         left:27%;
+
+        &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
         
 
     
@@ -497,6 +561,11 @@
         @extend.img-main2;
         position: relative;
         left:27%;
+
+        &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
         
 
         
@@ -557,6 +626,13 @@
         @extend.img-main2;
         position: relative;
         left:27%;
+
+
+        &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
+
     }
     
     
@@ -579,6 +655,12 @@
         @extend.img-main2;
         position: relative;
         left:27%;
+
+        &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
+
     }
     
     
@@ -803,6 +885,12 @@
     max-width:700px;
     padding-right:6rem;
     padding-left:7rem;
+
+
+    &:hover{
+
+    transform:scale(1.1,1.1);
+    transition: all 3s;}
     
     
     }
@@ -815,6 +903,11 @@
     padding-right:6rem;
     padding-left:7rem;
     padding-bottom:5rem;
+
+    &:hover{
+
+    transform:scale(1.1,1.1);
+    transition: all 3s;}
     
     }
     
@@ -826,6 +919,11 @@
     @extend.img-main3;
     position: relative;
     left: 33%;
+
+    &:hover{
+
+    transform:scale(1.1,1.1);
+    transition: all 3s;}
     
     }
     
@@ -837,6 +935,11 @@
     position: relative;
     left: 33%;
 
+    &:hover{
+
+    transform:scale(1.1,1.1);
+    transition: all 3s;}
+
     }
     
     
@@ -847,6 +950,11 @@
     padding-left:5rem ;
     position: relative;
     left: 35%;
+
+    &:hover{
+
+    transform:scale(1.1,1.1);
+    transition: all 3s;}
     
     }
     
@@ -908,6 +1016,11 @@
     
     @extend.img-main3;
     padding-top:5rem;
+
+    &:hover{
+
+    transform:scale(1.1,1.1);
+    transition: all 3s;}
     
     
     }
@@ -924,6 +1037,11 @@
     
     @extend.img-main3;
     padding-top:5rem;
+
+    &:hover{
+
+    transform:scale(1.1,1.1);
+    transition: all 3s;}
     
     }
     
@@ -967,7 +1085,7 @@
     
     .nombre{
     
-    margin-bottom: 10rem; }
+    margin-bottom: 10rem;}
 
 
 
