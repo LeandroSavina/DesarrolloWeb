@@ -34,7 +34,7 @@
         color: $colorletra;
         font-size: $tamanioletra;
         font-family: $familialetra;
-        font-weight:220;
+        font-weight:bold;
         padding-left:7rem;
         padding-bottom:3rem; 
         padding-top:5rem;
@@ -46,11 +46,11 @@
     
     .p-home{ 
 
-        @include estiloparrafo1 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        @include estiloparrafo1 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
         padding-left:2rem;
         padding-bottom:1rem; 
-        padding-top: 5rem;
+        padding-top: 1rem;
         padding-right:2rem;
     
     }
@@ -68,7 +68,7 @@
     .img-main1 {
 
     max-width:300px;
-    padding-top: 3rem;
+    padding-top: 4rem;
     }
 
 
@@ -76,6 +76,7 @@
     
         @extend.img-main1;
         position: relative;
+        top:6rem;
         left:10%;
     }
     
@@ -99,8 +100,8 @@
     
     
     .p-historia{
-        @include estiloparrafo1 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        @include estiloparrafo1 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
         padding-left:3rem;
         padding-bottom:1rem; 
         padding-top: 7rem;
@@ -108,6 +109,21 @@
     }
 
 
+    .historia-0{
+    
+        @extend.img-main1;
+        position: relative;
+        left:10%;
+
+
+
+    &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
+
+    
+    }
 
     .historia-1{
     
@@ -189,8 +205,8 @@
     
     .p-guias1{
 
-        @include estiloparrafo1 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        @include estiloparrafo1 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
         padding-left:3rem;
         padding-bottom:1rem; 
         padding-top: 9rem;
@@ -203,8 +219,8 @@
     
     .p-guias2{
 
-        @include estiloparrafo1 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        @include estiloparrafo1 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
         padding-left:3rem;
         padding-bottom:1rem; 
         padding-top: 6rem;
@@ -213,8 +229,8 @@
     
     .p-guias3{
 
-        @include estiloparrafo1 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        @include estiloparrafo1 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
         padding-left:3rem;
         padding-bottom:1rem; 
         padding-top: 6rem;
@@ -223,11 +239,34 @@
         
     }
     
-    
+    .p-salidas1{
+
+        @include estiloparrafo1 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
+        padding-left:3rem;
+        padding-bottom:1rem; 
+        padding-top: 6rem;
+        padding-right:2rem;
+
+
+    }
+
+    .p-salidas2{
+
+        @include estiloparrafo1 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
+        padding-left:3rem;
+        padding-bottom:1rem; 
+        padding-top: 4rem;
+        padding-right:2rem;
+
+
+    }
+
     .p-alquiler1{
 
-        @include estiloparrafo1 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        @include estiloparrafo1 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
         padding-left:3rem;
         padding-bottom:1rem; 
         padding-top: 6rem;
@@ -250,8 +289,8 @@
     
     .p-alquiler2{
     
-    @include estiloparrafo1 (rgb(68, 71, 105), 400, Arial,);
-    font-weight:220;
+    @include estiloparrafo1 (rgb(68, 71, 105), 400, verdana,);
+    font-weight:bold;
     padding-left:3rem;
     padding-bottom:1rem; 
     padding-top: 6rem;
@@ -272,10 +311,24 @@
     
     }    
 
+    .alquiler3{
+        
+        @extend.img-main1;
+        position: relative;
+        left:10%;
+
+    &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
+    
+    
+    }    
+
     .p-contacto1{
     
-        @include estiloparrafo1 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        @include estiloparrafo1 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
         padding-left:3rem;
         padding-bottom:1rem; 
         padding-top: 6rem;
@@ -358,23 +411,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width:600px){
 
 
@@ -403,7 +439,7 @@
         color: $colorletra;
         font-size: $tamanioletra;
         font-family: $familialetra;
-        font-weight:220;
+        font-weight:bold;
         padding-left:7rem;
         padding-bottom:3rem; 
         padding-top:5rem;
@@ -437,6 +473,7 @@
         max-width:400px;
         padding-top: 3rem;
     }
+
 
 
     img.home1{ 
@@ -478,7 +515,7 @@
     .p-historia{
 
         @include estiloparrafo2 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        font-weight:bold;
         padding-left:7rem;
         padding-bottom:3rem; 
         padding-top:5rem;
@@ -487,6 +524,21 @@
     }
 
 
+    .historia-0{
+    
+        @extend.img-main2;
+        position: relative;
+        left:25%;
+
+
+
+    &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
+
+    
+    }
 
     .historia-1{
     
@@ -575,7 +627,7 @@
     .p-guias1{
 
         @include estiloparrafo2 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        font-weight:bold;
         padding-left:7rem;
         padding-bottom:3rem; 
         padding-top:5rem;
@@ -589,7 +641,7 @@
     .p-guias2{
 
         @include estiloparrafo2 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        font-weight:bold;
         padding-left:7rem;
         padding-bottom:3rem; 
         padding-top:5rem;
@@ -600,7 +652,7 @@
     .p-guias3{
 
         @include estiloparrafo2 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        font-weight:bold;
         padding-left:7rem;
         padding-bottom:3rem; 
         padding-top:5rem;
@@ -609,11 +661,35 @@
         
     }
     
+    .p-salidas1{
+
+        @include estiloparrafo2 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
+        padding-left:3rem;
+        padding-bottom:1rem; 
+        padding-top: 3rem;
+        padding-right:2rem;
+
+
+    }
+
+    .p-salidas2{
+
+        @include estiloparrafo2 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
+        padding-left:3rem;
+        padding-bottom:1rem; 
+        padding-top: 3rem;
+        padding-right:2rem;
+
+
+    }
+    
     
     .p-alquiler1{
 
         @include estiloparrafo2 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        font-weight:bold;
         padding-left:5rem;
         padding-bottom:3rem; 
         padding-top:5rem;
@@ -640,7 +716,7 @@
     .p-alquiler2{
     
         @include estiloparrafo2 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        font-weight:bold;
         padding-left:5rem;
         padding-bottom:3rem; 
         padding-top:5rem;
@@ -663,13 +739,26 @@
 
     }
     
+    .alquiler3{
+        
     
+        
+        @extend.img-main2;
+        position: relative;
+        left:27%;
+
+        &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
+
+    }
     
     
     .p-contacto1{
     
         @include estiloparrafo2 (rgb(68, 71, 105), 400, Arial,);
-        font-weight:220;
+        font-weight:bold;
         padding-left:7rem;
         padding-bottom:3rem; 
         padding-top:5rem;
@@ -776,7 +865,7 @@
     h2 {
         
         
-        padding-left:5rem;
+        padding-left:2rem;
         padding-right:3rem;
         padding-bottom:5rem;
         padding-top: 3rem;
@@ -797,7 +886,7 @@
         color: $colorletra;
         font-size: $tamanioletra;
         font-family: $familialetra;
-        font-weight:220;
+        font-weight:bold;
         padding-left:7rem;
         padding-bottom:3rem; 
         padding-top:5rem;
@@ -807,13 +896,13 @@
     
     .p-home{ 
 
-        @include estiloparrafo3 (rgb(68, 71, 105), 40px, Arial,);
-        font-weight: 50px;
+        @include estiloparrafo3 (rgb(68, 71, 105), 40px, verdana,);
+        font-weight:bold;
         padding-left:7rem;
         padding-bottom:3rem; 
-        padding-top:5rem;
+        padding-top:3rem;
         padding-right:7rem;
-    
+
     }
     
     main{
@@ -829,7 +918,6 @@
     .img-main3{
 
     max-width:600px;
-    padding-top: 3rem;
 
     }
 
@@ -839,7 +927,7 @@
 
     @extend.img-main3;
     position: relative;
-    left:33%;
+    left:35rem;
     }
     
     img.home2{
@@ -856,7 +944,7 @@
         
     @extend.img-main3;
     position: relative;
-    padding-bottom: 7rem;
+    padding-bottom: 10rem;
     left:33%;
 
         
@@ -870,15 +958,32 @@
     
     .p-historia{
 
-    @include estiloparrafo3 (rgb(68, 71, 105), 400, Arial,);   
-    font-weight:220;
+    @include estiloparrafo3 (rgb(68, 71, 105), 400, verdana,);   
+    font-weight:bold;
     padding-left:7rem;
-    padding-bottom:4rem; 
+    padding-bottom:2rem; 
     padding-top:4rem;
     padding-right:7rem;
 
     }
 
+
+    .historia-0{
+    
+        @extend.img-main3;
+        position: relative;
+        left:29%;
+        padding-bottom: 2rem;
+
+
+
+    &:hover{
+
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
+
+    
+    }
 
     .historia-1{
 
@@ -899,10 +1004,10 @@
     
     .historia-2{
 
-    max-width:700px;
+    max-width:800px;
     padding-right:6rem;
-    padding-left:7rem;
-    padding-bottom:5rem;
+    padding-left:3rem;
+    padding-bottom:3rem;
 
     &:hover{
 
@@ -918,7 +1023,7 @@
 
     @extend.img-main3;
     position: relative;
-    left: 33%;
+    left: 28%;
 
     &:hover{
 
@@ -933,7 +1038,7 @@
 
     @extend.img-main3;
     position: relative;
-    left: 33%;
+    left: 28%;
 
     &:hover{
 
@@ -949,7 +1054,7 @@
     padding-right: 5rem;
     padding-left:5rem ;
     position: relative;
-    left: 35%;
+    left: 29%;
 
     &:hover{
 
@@ -964,8 +1069,8 @@
     padding-left:6rem ;
     padding-bottom: 4rem;
     
-    @include estiloparrafo3 (rgb(68, 71, 105), 400, Arial,);
-    font-weight:220;
+    @include estiloparrafo3 (rgb(68, 71, 105), 400, verdana,);
+    font-weight:bold;
     position: relative; 
 
     }
@@ -978,8 +1083,8 @@
     padding-top: 3rem;
     padding-right: 6rem;
     padding-left:6rem ;
-    @include estiloparrafo3 (rgb(68, 71, 105), 400, Arial,);
-    font-weight:220;
+    @include estiloparrafo3 (rgb(68, 71, 105), 400, verdana,);
+    font-weight:bold;
     position: relative;   
     }
     
@@ -989,22 +1094,47 @@
     padding-right: 6rem;
     padding-left:6rem;
 
-    @include estiloparrafo3 (rgb(68, 71, 105), 400, Arial,);
-    font-weight:220;
+    @include estiloparrafo3 (rgb(68, 71, 105), 400, verdana,);
+    font-weight:bold;
     position: relative;
     
     
     }
     
-    
+
+    .p-salidas1{
+
+        @include estiloparrafo3 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
+        padding-left:3rem;
+        padding-bottom:1rem; 
+        padding-top: 3rem;
+        padding-right:2rem;
+
+
+    }
+
+    .p-salidas2{
+
+        @include estiloparrafo3 (rgb(68, 71, 105), 400, verdana,);
+        font-weight:bold;
+        padding-left:3rem;
+        padding-bottom:1rem; 
+        padding-top: 3rem;
+        padding-right:2rem;
+
+
+    }
+
+
     .p-alquiler1{
 
     padding-top: 6rem;
     padding-right: 6rem;
     padding-left:6rem;
     padding-bottom: 4rem;
-    @include estiloparrafo3 (rgb(68, 71, 105), 400, Arial,);
-    font-weight:220;
+    @include estiloparrafo3 (rgb(68, 71, 105), 400, verdana,);
+    font-weight:bold;
     padding-left:6rem;
     padding-right:6rem;
     padding-top:7rem;
@@ -1027,8 +1157,8 @@
     
     .p-alquiler2{
     
-    @include estiloparrafo3 (rgb(68, 71, 105), 400, Arial,);
-    font-weight:220;
+    @include estiloparrafo3 (rgb(68, 71, 105), 400, verdana,);
+    font-weight:bold;
     position: relative;
     padding-top:7rem;
     }
@@ -1045,10 +1175,23 @@
     
     }
     
+
+    .alquiler3{
+    
+        @extend.img-main3;
+        padding-top:5rem;
+        position: relative;
+        left:25rem;
+        &:hover{
+    
+        transform:scale(1.1,1.1);
+        transition: all 3s;}
+        
+        }
     .p-contacto1{
     
-    @include estiloparrafo3 (rgb(68, 71, 105), 400, Arial,);
-    font-weight:220;
+    @include estiloparrafo3 (rgb(68, 71, 105), 400, verdana,);
+    font-weight:bold;
     padding-left:6rem;
     padding-right:5rem;
     padding-top: 5rem;

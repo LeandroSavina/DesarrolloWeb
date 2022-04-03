@@ -123,7 +123,7 @@
     font-size: 300%;
     font-family: 'Rowdies', cursive;
     text-align: left;
-    padding-bottom: 6rem; }
+    padding-bottom: 9rem; }
   .animate__animated.animate__bounceInLeft {
     --animate-duration: 3s; }
   nav {
@@ -131,36 +131,35 @@
     justify-content: center;
     padding-right: 5px;
     padding-left: 5rem;
-    align-content: space-between;
-    padding-top: 5rem; }
-  a {
-    text-decoration: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 800;
-    font-size: 900;
-    color: black;
-    justify-content: center;
-    padding: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem; }
-  li {
-    background-color: #c2bebe;
-    border: 2px solid black;
-    text-align: center;
-    padding: 2rem; }
-  ul li a:hover {
-    color: #2f96eb; }
-  ul {
-    display: flex;
-    flex-direction: row;
-    padding-left: 2rem;
-    padding-top: 5rem;
-    list-style: none;
-    padding-left: 1rem;
-    align-content: center;
-    position: relative;
-    right: 3rem;
-    top: 7rem; } }
+    align-content: space-between; }
+    nav a {
+      text-decoration: none;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 800;
+      font-size: 900;
+      color: black;
+      justify-content: center;
+      padding: 2rem;
+      padding-left: 2rem;
+      padding-right: 2rem; }
+    nav li {
+      background-color: #c2bebe;
+      border: 2px solid black;
+      text-align: center;
+      padding: 2rem; }
+    nav ul li a:hover {
+      color: #2f96eb; }
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      padding-left: 2rem;
+      padding-top: 5rem;
+      list-style: none;
+      padding-left: 1rem;
+      align-content: center;
+      position: relative;
+      right: 3rem;
+      top: 7rem; } }
 
 @media only screen and (max-width: 600px) {
   h2 {
@@ -177,27 +176,28 @@
   .p-home {
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 2rem;
     padding-bottom: 1rem;
-    padding-top: 5rem;
+    padding-top: 1rem;
     padding-right: 2rem; }
   main {
     grid-area: main;
     display: flex;
     flex-direction: column;
     background-color: #d8e3ec; }
-  .img-main1, img.home1, img.home2, img.home3, .historia-1, .historia-2, .guias1, .guias2, .guias3, .alquiler1, .alquiler2, .contacto1 {
+  .img-main1, img.home1, img.home2, img.home3, .historia-0, .historia-1, .historia-2, .guias1, .guias2, .guias3, .alquiler1, .alquiler2, .alquiler3, .contacto1 {
     max-width: 300px;
-    padding-top: 3rem; }
+    padding-top: 4rem; }
   img.home1 {
     position: relative;
+    top: 6rem;
     left: 10%; }
   img.home2 {
     position: relative;
@@ -209,17 +209,23 @@
   .p-historia {
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 3rem;
     padding-bottom: 1rem;
     padding-top: 7rem;
     padding-right: 2rem; }
+  .historia-0 {
+    position: relative;
+    left: 10%; }
+    .historia-0:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .historia-1 {
     position: relative;
     left: 10%; }
@@ -253,13 +259,13 @@
   .p-guias1 {
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 3rem;
     padding-bottom: 1rem;
     padding-top: 9rem;
@@ -267,13 +273,13 @@
   .p-guias2 {
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 3rem;
     padding-bottom: 1rem;
     padding-top: 6rem;
@@ -281,27 +287,55 @@
   .p-guias3 {
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 3rem;
     padding-bottom: 1rem;
     padding-top: 6rem;
     padding-right: 2rem; }
-  .p-alquiler1 {
+  .p-salidas1 {
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 6rem;
+    padding-right: 2rem; }
+  .p-salidas2 {
+    color: #444769;
+    font-size: 400;
+    font-family: verdana;
+    font-weight: bold;
+    padding-left: 7rem;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    padding-right: 7rem;
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 4rem;
+    padding-right: 2rem; }
+  .p-alquiler1 {
+    color: #444769;
+    font-size: 400;
+    font-family: verdana;
+    font-weight: bold;
+    padding-left: 7rem;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    padding-right: 7rem;
+    font-weight: bold;
     padding-left: 3rem;
     padding-bottom: 1rem;
     padding-top: 6rem;
@@ -315,13 +349,13 @@
   .p-alquiler2 {
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 3rem;
     padding-bottom: 1rem;
     padding-top: 6rem;
@@ -332,16 +366,22 @@
     .alquiler2:hover {
       transform: scale(1.1, 1.1);
       transition: all 3s; }
+  .alquiler3 {
+    position: relative;
+    left: 10%; }
+    .alquiler3:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .p-contacto1 {
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 3rem;
     padding-bottom: 1rem;
     padding-top: 6rem;
@@ -353,7 +393,7 @@
     color: #444769;
     font-size: 400;
     font-family: Arial;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
@@ -383,7 +423,7 @@
     color: #444769;
     font-size: 400;
     font-family: Arial;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
@@ -398,7 +438,7 @@
     display: flex;
     flex-direction: column;
     background-color: #d8e3ec; }
-  .img-main2, img.home1, img.home2, img.home3, .historia-1, .historia-2, .guias1, .guias2, .guias3, .alquiler1, .alquiler2 {
+  .img-main2, img.home1, img.home2, img.home3, .historia-0, .historia-1, .historia-2, .guias1, .guias2, .guias3, .alquiler1, .alquiler2, .alquiler3 {
     max-width: 400px;
     padding-top: 3rem; }
   img.home1 {
@@ -415,16 +455,22 @@
     color: #444769;
     font-size: 400;
     font-family: Arial;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 6rem; }
+  .historia-0 {
+    position: relative;
+    left: 25%; }
+    .historia-0:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .historia-1 {
     position: relative;
     left: 25%; }
@@ -459,12 +505,12 @@
     color: #444769;
     font-size: 400;
     font-family: Arial;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
@@ -473,12 +519,12 @@
     color: #444769;
     font-size: 400;
     font-family: Arial;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
@@ -487,26 +533,54 @@
     color: #444769;
     font-size: 400;
     font-family: Arial;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 6rem; }
-  .p-alquiler1 {
+  .p-salidas1 {
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-right: 2rem; }
+  .p-salidas2 {
+    color: #444769;
+    font-size: 400;
+    font-family: verdana;
+    font-weight: bold;
+    padding-left: 7rem;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    padding-right: 7rem;
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-right: 2rem; }
+  .p-alquiler1 {
+    color: #444769;
+    font-size: 400;
+    font-family: Arial;
+    font-weight: bold;
+    padding-left: 7rem;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    padding-right: 7rem;
+    font-weight: bold;
     padding-left: 5rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
@@ -521,12 +595,12 @@
     color: #444769;
     font-size: 400;
     font-family: Arial;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 5rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
@@ -537,16 +611,22 @@
     .alquiler2:hover {
       transform: scale(1.1, 1.1);
       transition: all 3s; }
+  .alquiler3 {
+    position: relative;
+    left: 27%; }
+    .alquiler3:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .p-contacto1 {
     color: #444769;
     font-size: 400;
     font-family: Arial;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
@@ -561,7 +641,7 @@
     color: #444769;
     font-size: 400;
     font-family: Arial;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
@@ -577,7 +657,7 @@
 
 @media only screen and (min-width: 600px) and (min-width: 992px) {
   h2 {
-    padding-left: 5rem;
+    padding-left: 2rem;
     padding-right: 3rem;
     padding-bottom: 5rem;
     padding-top: 3rem;
@@ -590,49 +670,55 @@
   .p-home {
     color: #444769;
     font-size: 40px;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 50px;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-right: 7rem; }
   main {
     grid-area: main;
     display: flex;
     flex-direction: column;
     background-color: #d8e3ec; }
-  .img-main3, img.home1, img.home2, img.home3, .guias1, .guias2, .guias3, .alquiler1, .alquiler2 {
-    max-width: 600px;
-    padding-top: 3rem; }
+  .img-main3, img.home1, img.home2, img.home3, .historia-0, .guias1, .guias2, .guias3, .alquiler1, .alquiler2, .alquiler3 {
+    max-width: 600px; }
   img.home1 {
     position: relative;
-    left: 33%; }
+    left: 35rem; }
   img.home2 {
     position: relative;
     left: 33%; }
   img.home3 {
     position: relative;
-    padding-bottom: 7rem;
+    padding-bottom: 10rem;
     left: 33%; }
   .p-historia {
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 7rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     padding-top: 4rem;
     padding-right: 7rem; }
+  .historia-0 {
+    position: relative;
+    left: 29%;
+    padding-bottom: 2rem; }
+    .historia-0:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .historia-1 {
     max-width: 700px;
     padding-right: 6rem;
@@ -641,22 +727,22 @@
       transform: scale(1.1, 1.1);
       transition: all 3s; }
   .historia-2 {
-    max-width: 700px;
+    max-width: 800px;
     padding-right: 6rem;
-    padding-left: 7rem;
-    padding-bottom: 5rem; }
+    padding-left: 3rem;
+    padding-bottom: 3rem; }
     .historia-2:hover {
       transform: scale(1.1, 1.1);
       transition: all 3s; }
   .guias1 {
     position: relative;
-    left: 33%; }
+    left: 28%; }
     .guias1:hover {
       transform: scale(1.1, 1.1);
       transition: all 3s; }
   .guias2 {
     position: relative;
-    left: 33%; }
+    left: 28%; }
     .guias2:hover {
       transform: scale(1.1, 1.1);
       transition: all 3s; }
@@ -664,7 +750,7 @@
     padding-right: 5rem;
     padding-left: 5rem;
     position: relative;
-    left: 35%; }
+    left: 29%; }
     .guias3:hover {
       transform: scale(1.1, 1.1);
       transition: all 3s; }
@@ -675,13 +761,13 @@
     padding-bottom: 4rem;
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     position: relative; }
   .p-guias2 {
     padding-top: 3rem;
@@ -689,13 +775,13 @@
     padding-left: 6rem;
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     position: relative; }
   .p-guias3 {
     padding-top: 3rem;
@@ -703,14 +789,42 @@
     padding-left: 6rem;
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     position: relative; }
+  .p-salidas1 {
+    color: #444769;
+    font-size: 400;
+    font-family: verdana;
+    font-weight: bold;
+    padding-left: 7rem;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    padding-right: 7rem;
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-right: 2rem; }
+  .p-salidas2 {
+    color: #444769;
+    font-size: 400;
+    font-family: verdana;
+    font-weight: bold;
+    padding-left: 7rem;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    padding-right: 7rem;
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-right: 2rem; }
   .p-alquiler1 {
     padding-top: 6rem;
     padding-right: 6rem;
@@ -718,13 +832,13 @@
     padding-bottom: 4rem;
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 6rem;
     padding-right: 6rem;
     padding-top: 7rem; }
@@ -736,13 +850,13 @@
   .p-alquiler2 {
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     position: relative;
     padding-top: 7rem; }
   .alquiler2 {
@@ -750,16 +864,23 @@
     .alquiler2:hover {
       transform: scale(1.1, 1.1);
       transition: all 3s; }
+  .alquiler3 {
+    padding-top: 5rem;
+    position: relative;
+    left: 25rem; }
+    .alquiler3:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 3s; }
   .p-contacto1 {
     color: #444769;
     font-size: 400;
-    font-family: Arial;
-    font-weight: 220;
+    font-family: verdana;
+    font-weight: bold;
     padding-left: 7rem;
     padding-bottom: 3rem;
     padding-top: 5rem;
     padding-right: 7rem;
-    font-weight: 220;
+    font-weight: bold;
     padding-left: 6rem;
     padding-right: 5rem;
     padding-top: 5rem; }
@@ -810,27 +931,17 @@
   .facebook {
     max-width: 30px;
     position: relative;
-    left: 11%;
-    bottom: 4.5%; }
-    .facebook:hover {
-      transform: translate(5px, 20px);
-      transition: all 3s; }
+    left: 11%; }
   .instagram {
     max-width: 30px;
     position: relative;
     left: 26%;
-    bottom: 24%; }
-    .instagram:hover {
-      transform: translate(5px, 20px);
-      transition: all 3s; }
+    bottom: 25%; }
   .twitter {
     max-width: 30px;
     position: relative;
     left: 42%;
-    bottom: 45%; }
-    .twitter:hover {
-      transform: translate(5px, 20px);
-      transition: all 3s; } }
+    bottom: 52%; } }
 
 @media only screen and (min-width: 600px) {
   footer {
@@ -862,26 +973,17 @@
     max-width: 40px;
     position: relative;
     left: 32%;
-    top: 3%; }
-    .facebook:hover {
-      transform: translate(5px, 20px);
-      transition: all 3s; }
+    top: 7%; }
   .instagram {
     max-width: 40px;
     position: relative;
     left: 38.5%;
-    bottom: 15%; }
-    .instagram:hover {
-      transform: translate(5px, 20px);
-      transition: all 3s; }
+    bottom: 18%; }
   .twitter {
     max-width: 40px;
     position: relative;
     left: 45%;
-    bottom: 35%; }
-    .twitter:hover {
-      transform: translate(5px, 20px);
-      transition: all 3s; } }
+    bottom: 45%; } }
 
 @media only screen and (min-width: 992px) {
   footer {
@@ -913,26 +1015,17 @@
     max-width: 50px;
     position: relative;
     left: 39%;
-    top: 5%; }
-    .facebook:hover {
-      transform: translate(5px, 20px);
-      transition: all 1s; }
+    top: 10%; }
   .instagram {
     max-width: 50px;
     position: relative;
-    left: 43%;
-    bottom: 14%; }
-    .instagram:hover {
-      transform: translate(5px, 20px);
-      transition: all 1s; }
+    left: 42.5%;
+    bottom: 15%; }
   .twitter {
     max-width: 50px;
     position: relative;
-    left: 47%;
-    bottom: 36; }
-    .twitter:hover {
-      transform: translate(5px, 20px);
-      transition: all 1s; } }
+    left: 46%;
+    bottom: 42%; } }
 
 .grilla1 {
   display: grid;
